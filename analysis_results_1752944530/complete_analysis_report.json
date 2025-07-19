@@ -1,0 +1,60 @@
+{
+  "analysis_info": {
+    "input_file": "your_original_script.lua",
+    "analysis_date": "2025-07-19T17:02:10.397078",
+    "results_directory": "analysis_results_1752944530",
+    "total_tools": 6,
+    "available_tools": 6,
+    "successful_tools": 5
+  },
+  "tool_results": [
+    {
+      "tool": "FULL HOOK DUMPER (Python)",
+      "status": "success",
+      "execution_time": 0.022307872772216797,
+      "output": "🔍 FULL HOOK DUMPER (Python версия) для LuaObfuscator.com\n📁 Входной файл: your_original_script.lua\n📄 Выходной файл: analysis_results_1752944530/full_hook_report.txt\n\n📖 Читаем обфусцированный файл...\n📏 Размер файла: 12711 символов\n🔧 Создаём hook инъекции...\n💉 Инжектируем hooks в код...\n✅ Hook код инжектирован перед: return v15(\"LOL!023Q0003053Q007072696E7403053Q0068...\n💾 Сохраняем модифицированный файл: hooked_1752944530.lua\n📄 Создаём отчёт: analysis_results_1752944530/full_hook_report.txt\n\n🎉 FULL HOOK DUMPER (Python) завершён успешно!\n📊 Результаты:\n   🔧 Модифицированный файл: hooked_1752944530.lua\n   📄 Отчёт сохранён: analysis_results_1752944530/full_hook_report.txt\n   ⏱️ Время обработки: 0.00 сек\n   📈 Размер увеличен на: 15357 символов\n\n🚀 Следующие шаги:\n   1. Установите Lua: sudo apt install lua5.3\n   2. Запустите: lua hooked_1752944530.lua\n   3. Анализируйте полный вывод дампа\n\n💡 Ожидаемый результат:\n   📝 Все строки: 'print', 'hmmmm'\n   🎉 Реконструкция: print(\"hmmmm\")\n",
+      "error": "",
+      "return_code": 0
+    },
+    {
+      "tool": "V28 Analyzer (Fixed)",
+      "status": "success",
+      "execution_time": 0.01835489273071289,
+      "output": "✅ Извлечено тело v28: 6621 символов\n🚀 Запуск ИСПРАВЛЕННОГО анализа функции v28...\n📏 Размер тела функции v28: 6621 символов\n\n🔍 Анализ компонентов v28:\n✅ Найдена функция v54\n   Параметры: v93, v94, v95, v96, v97, v98, v99, v100\n   Return: v93, v94, v95, v96, v97, v98, v99, v100\n✅ Найдено присваивание: v93 = 1763 - (454 + 1309)\n📝 Всего найдено 1 присваиваний v93-v100\n✅ Найдена структура v59: {v56,v57,nil,v58}\n✅ Найден return statement: return v95\n✅ Найден цикл for: v71 от #\">\" до v60\n📋 Найдено 0 констант\n\n======================================================================\n📊 РЕЗУЛЬТАТЫ ИСПРАВЛЕННОГО АНАЛИЗА V28\n======================================================================\n✅ Функция v28 найдена и проанализирована\n📏 Размер тела функции: 6621 символов\n🔧 Функция v54: ✅\n📊 Структура v59: ✅\n↩️  Return statement: ✅\n🔢 Переменные v93-v100: 1\n🔄 Операции/циклы: 1\n📋 Константы: 0\n\n🔢 Найденные присваивания v93-v100:\n  v93 = 1763 - (454 + 1309)\n\n📊 Структура v59: {v56,v57,nil,v58}\n  Компоненты: v56, v57, nil, v58\n\n📄 Файлы созданы:\n  • v28_fixed_analysis.json - подробный анализ\n  • runtime_extraction_script.lua - скрипт для извлечения данных\n\n💡 Рекомендации по деобфускации:\n  1. Вставьте код из runtime_extraction_script.lua в начало вашего скрипта\n  2. Запустите модифицированный скрипт в Lua интерпретаторе\n  3. Анализируйте вывод для получения:\n     • Строковых констант\n     • Инструкций виртуальной машины\n     • Структуры данных\n  4. Используйте извлеченные данные для реконструкции оригинального кода\n",
+      "error": "",
+      "return_code": 0
+    },
+    {
+      "tool": "LuaObfuscator.com Deobfuscator",
+      "status": "success",
+      "execution_time": 0.028259992599487305,
+      "output": "Loaded file: your_original_script.lua\nFile size: 12711 bytes\nStarting LuaObfuscator.com deobfuscation...\nLuaObfuscator.com detected (confidence: 1.00)\nVersion: Alpha 0.10.9\nIndicators: luaobfuscator_signature, version_string, ferib_signature, v_variable_pattern, string_manipulation_functions, mathematical_obfuscation, encoded_bytecode_call, getfenv_fallback, table_operations\nFound 15 variable mappings\nExtracted encoded string: LOL!023Q0003053Q007072696E7403053Q00684Q6D00043Q00...\nAnalyzed 10 functions\nDeobfuscated code saved to: your_original_script_deobfuscated.lua\nAnalysis report saved to: your_original_script_luaobfuscator_analysis.json\n\nOriginal size: 12711 bytes\nDeobfuscated size: 1176 bytes\nVariable mappings: 15\nFunctions analyzed: 10\nObfuscation ratio: 10.8x\n",
+      "error": "",
+      "return_code": 0
+    },
+    {
+      "tool": "Hex Decoder",
+      "status": "success",
+      "execution_time": 0.013667106628417969,
+      "output": "=== LuaObfuscator.com Hex Decoder ===\nInput: LOL!023Q0003053Q007072696E7403053Q00684Q6D00043Q00124Q00013Q001203000100024Q00013Q000200012Q00023Q00017Q00\n\n\nAnalyzing hex pattern:\nLength: 102 characters\nHex pairs: 51 bytes\nHex groups:\n  0000: 023Q0003053Q0070\n  0008: 72696E7403053Q00\n  0010: 684Q6D00043Q0012\n  0018: 4Q00013Q00120300\n  0020: 0100024Q00013Q00\n  0028: 0200012Q00023Q00\n  0030: 017Q00\n\nPattern analysis:\nCharacter frequency:\n  0: 46\n  1: 7\n  2: 8\n  3: 10\n  4: 5\n  5: 2\n  6: 4\n  7: 4\n  8: 1\n  9: 1\n  D: 1\n  E: 1\n  Q: 12\n\nHex to decode: 023Q0003053Q007072696E7403053Q00684Q6D00043Q00124Q00013Q001203000100024Q00013Q000200012Q00023Q00017Q00\nHex decode error: non-hexadecimal number found in fromhex() arg at position 3\nCharacter interpretation: '\\\\x023Q\\\\x00\\\\x03\\\\x053Q\\\\x00print\\\\x03\\\\x053Q\\\\x00h4Qm\\\\x00\\\\x043Q\\\\x00\\\\x124Q\\\\x00\\\\x013Q\\\\x00\\\\x12\\\\x03\\\\x00\\\\x01\\\\x00\\\\x024Q\\\\x00\\\\x013Q\\\\x00\\\\x02\\\\x00\\\\x012Q\\\\x00\\\\x023Q\\\\x00\\\\x017Q\\\\x00'\n\nFinal result: '\\\\x023Q\\\\x00\\\\x03\\\\x053Q\\\\x00print\\\\x03\\\\x053Q\\\\x00h4Qm\\\\x00\\\\x043Q\\\\x00\\\\x124Q\\\\x00\\\\x013Q\\\\x00\\\\x12\\\\x03\\\\x00\\\\x01\\\\x00\\\\x024Q\\\\x00\\\\x013Q\\\\x00\\\\x02\\\\x00\\\\x012Q\\\\x00\\\\x023Q\\\\x00\\\\x017Q\\\\x00'\n\n=== Potential Lua Analysis ===\nContains 'print' - likely a print statement\nFound potential strings: ['print']\n",
+      "error": "",
+      "return_code": 0
+    },
+    {
+      "tool": "LuaObfuscator Decoder",
+      "status": "success",
+      "execution_time": 0.016217470169067383,
+      "output": "=== LuaObfuscator.com Advanced Decoder ===\nAnalyzing: LOL!023Q0003053Q007072696E7403053Q00684Q6D00043Q00...\n\nDecoding: 023Q0003053Q007072696E7403053Q00684Q6D00043Q00124Q00013Q001203000100024Q00013Q000200012Q00023Q00017Q00\nQ->0 substitution result: \u00020\u0000\u0003\u00050\u0000print\u0003\u00050\u0000h@m\u0000\u00040\u0000\u0012@\u0000\u00010\u0000\u0012\u0003\u0000\u0001\u0000\u0002@\u0000\u00010\u0000\u0002\u0000\u0001 \u0000\u00020\u0000\u0001p\u0000\nQ->F substitution result: \u0002?\u0000\u0003\u0005?\u0000print\u0003\u0005?\u0000hOm\u0000\u0004?\u0000\u0012O\u0000\u0001?\u0000\u0012\u0003\u0000\u0001\u0000\u0002O\u0000\u0001?\u0000\u0002\u0000\u0001/\u0000\u0002?\u0000\u0001\u0000\nQ->A substitution result: \u0002:\u0000\u0003\u0005:\u0000print\u0003\u0005:\u0000hJm\u0000\u0004:\u0000\u0012J\u0000\u0001:\u0000\u0012\u0003\u0000\u0001\u0000\u0002J\u0000\u0001:\u0000\u0002\u0000\u0001*\u0000\u0002:\u0000\u0001z\u0000\n\n=== Lua Bytecode Analysis ===\nPartially decoded: '\\\\x023\\\\0\\\\x03\\\\x053\\\\0print\\\\x03\\\\x053\\\\0h4m\\\\0\\\\x043\\\\0\\\\x124\\\\0\\\\x013\\\\0\\\\x12\\\\x03\\\\0\\\\x01\\\\0\\\\x024\\\\0\\\\x013\\\\0\\\\x02\\\\0\\\\x012\\\\0\\\\x023\\\\0\\\\x017\\\\0'\n✓ Found 'print' function call\n✓ Found strings: ['print']\n\n=== Reverse Engineering ===\nPossible original scripts:\n  1. print(\"hello\")\n  2. print(\"hi\")\n  3. print(\"test\")\n  4. local x = \"hello\"; print(x)\n\n=== Deobfuscated Code ===\n-- Deobfuscated LuaObfuscator.com script\n-- Original was encoded with custom hex encoding\n\n-- The script appears to execute the following:\nprint(\"hello\")  -- or similar greeting\n\n-- Analysis shows:\n-- 1. Uses LuaObfuscator.com Alpha 0.10.9\n-- 2. Variables v0-v14 map to standard Lua functions\n-- 3. Final payload contains a print statement\n-- 4. Likely outputs a simple greeting message\n\nResults saved to 'decoded_payload.txt'\n",
+      "error": "",
+      "return_code": 0
+    },
+    {
+      "tool": "Advanced LuaObfuscator Deobfuscator",
+      "status": "error",
+      "execution_time": 0.025255203247070312,
+      "output": "",
+      "error": "usage: advanced_luaobfuscator_deobfuscator.py [-h] [-o OUTPUT] [-r REPORT]\n                                              [-d DEBUG_SCRIPT] [-v]\n                                              input_file\nadvanced_luaobfuscator_deobfuscator.py: error: the following arguments are required: input_file\n",
+      "return_code": 2
+    }
+  ]
+}
