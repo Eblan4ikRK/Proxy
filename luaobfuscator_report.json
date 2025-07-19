@@ -1,0 +1,83 @@
+{
+  "luaobfuscator_detection": {
+    "is_luaobfuscator_com": true,
+    "version": "0.10.9",
+    "confidence": 1.0,
+    "indicators": [
+      "luaobfuscator_signature",
+      "version_string",
+      "ferib_signature",
+      "v_variable_pattern",
+      "string_manipulation_functions",
+      "mathematical_obfuscation",
+      "encoded_bytecode_call",
+      "getfenv_fallback",
+      "table_operations"
+    ]
+  },
+  "variable_mappings": {
+    "v0": "tonumber",
+    "v1": "string.byte",
+    "v2": "string.char",
+    "v3": "string.sub",
+    "v4": "string.gsub",
+    "v5": "string.rep",
+    "v6": "table.concat",
+    "v7": "table.insert",
+    "v8": "math.ldexp",
+    "v9": "getfenv",
+    "v10": "setmetatable",
+    "v11": "pcall",
+    "v12": "select",
+    "v13": "unpack",
+    "v14": "tonumber"
+  },
+  "function_analysis": {
+    "v15": [
+      "byte_operations",
+      "char_operations",
+      "substring_operations",
+      "returns_value"
+    ],
+    "v20": [
+      "returns_value"
+    ],
+    "v21": [
+      "byte_operations",
+      "returns_value"
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "type": "environment_access",
+      "description": "Accesses function environment (getfenv)",
+      "severity": "medium"
+    },
+    {
+      "type": "metatable_manipulation",
+      "description": "Manipulates metatables",
+      "severity": "medium"
+    },
+    {
+      "type": "bytecode_execution",
+      "description": "Executes encoded bytecode",
+      "severity": "high"
+    }
+  ],
+  "encoded_string": "LOL!023Q0003053Q007072696E7403053Q00684Q6D00043Q00124Q00013Q001203000100024Q00013Q000200012Q00023Q00",
+  "decoded_strings": [],
+  "statistics": {
+    "original_size": 2296,
+    "deobfuscated_size": 932,
+    "variable_count": 15,
+    "function_count": 3,
+    "lines_original": 77,
+    "obfuscation_ratio": 2.463519313304721
+  },
+  "deobfuscation_notes": [
+    "This script uses LuaObfuscator.com with variable renaming",
+    "String operations are heavily obfuscated with v0-v99 variables",
+    "Final payload is encoded as hex string and executed dynamically",
+    "Mathematical expressions are used to obfuscate numeric constants"
+  ]
+}

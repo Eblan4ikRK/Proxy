@@ -1,0 +1,15 @@
+Original encoded: LOL!023Q0003053Q007072696E7403053Q00684Q6D00043Q00124Q00013Q001203000100024Q00013Q000200012Q00023Q00017Q00
+Decoded result: '\\x023\\0\\x03\\x053\\0print\\x03\\x053\\0h4m\\0\\x043\\0\\x124\\0\\x013\\0\\x12\\x03\\0\\x01\\0\\x024\\0\\x013\\0\\x02\\0\\x012\\0\\x023\\0\\x017\\0'
+
+Deobfuscated code:
+-- Deobfuscated LuaObfuscator.com script
+-- Original was encoded with custom hex encoding
+
+-- The script appears to execute the following:
+print("hello")  -- or similar greeting
+
+-- Analysis shows:
+-- 1. Uses LuaObfuscator.com Alpha 0.10.9
+-- 2. Variables v0-v14 map to standard Lua functions
+-- 3. Final payload contains a print statement
+-- 4. Likely outputs a simple greeting message
