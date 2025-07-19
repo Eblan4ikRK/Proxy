@@ -1,0 +1,66 @@
+================================================================================
+🔬 LUA CODE RECONSTRUCTION REPORT
+================================================================================
+
+📊 ANALYSIS SUMMARY:
+   • Strings extracted: 4
+   • Function calls: 31
+   • Constants found: 13
+   • VM operations: 0
+
+🎯 RECONSTRUCTED CODE CANDIDATES:
+----------------------------------------
+ 1. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	1
+ 2. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	5
+ 3. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	6
+ 4. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	7
+ 5. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	8
+ 6. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	10
+ 7. -- Function call detected: (I╘	?ъ␦)L	function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	12
+ 8. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	13
+ 9. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	15
+10. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	16
+11. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	18
+12. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	19
+13. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	21
+14. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	22
+15. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	24
+16. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	25
+17. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	27
+18. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	28
+19. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	30
+20. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	31
+21. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	33
+22. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	34
+23. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	36
+24. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	37
+25. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	39
+26. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	40
+27. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	42
+28. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	43
+29. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	45
+30. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	46
+31. -- Function call detected: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	48
+32. print("function 00AD9860	function 00AD9978	function 00B4DFB0	table 00AE5AA8	2")
+
+🏆 MOST LIKELY ORIGINAL CODE:
+----------------------------------------
+>>> print("function 00AD9860	function 00AD9978	function 00B4DFB0	table 00AE5AA8	2")
+
+🔍 RAW DATA ANALYSIS:
+----------------------------------------
+String Operations:
+  char: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	2
+  byte: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	3
+  sub: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	4
+  concat: function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	9
+
+Constants:
+  function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	11
+  function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	14
+  function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	17
+  function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	20
+  function: 00AD9860	function: 00AD9978	function: 00B4DFB0	table: 00AE5AA8	23
+  ... and 8 more
+
+================================================================================
