@@ -1,0 +1,61 @@
+{
+  "v28_found": true,
+  "v28_body_size": 6621,
+  "v54_function": {
+    "variable": "v54",
+    "parameters": [
+      "v93",
+      "v94",
+      "v95",
+      "v96",
+      "v97",
+      "v98",
+      "v99",
+      "v100"
+    ],
+    "return_variables": [
+      "v93",
+      "v94",
+      "v95",
+      "v96",
+      "v97",
+      "v98",
+      "v99",
+      "v100"
+    ],
+    "body": "\n\t\t\t\tlocal v93 = (function()\n\t\t\t\t\treturn 1763 - (454 + 1309);\n\t\t\t\tend)();\n\t\t\t\tlocal v94 = (function()\n\t\t\t\t\treturn;\n\t\t\t\tend)();\n\t\t\t\tlocal v95 = (function()\n\t\t\t\t\treturn;\n\t\t\t\tend)();\n\t\t\t\twhile true do\n\t\t\t\t\tif (v93 == #\" \") then\n\t\t\t\t\t\tif (v94 == #\"[\") then\n\t\t\t\t\t\t\tv95 = (function()\n\t\t\t\t\t\t\t\treturn v96() ~= 0;\n\t\t\t\t\t\t\tend)();\n\t\t\t\t\t\telseif (v94 == 2) then\n\t\t\t\t\t\t\tv95 = (function()\n\t\t\t\t\t\t\t\treturn v97();\n\t\t\t\t\t\t\tend)();\n\t\t\t\t\t\telseif (v94 == #\"-19\") then\n\t\t\t\t\t\t\tv95 = (function()\n\t\t\t\t\t\t\t\treturn v98();\n\t\t\t\t\t\t\tend)();\n\t\t\t\t\t\tend\n\t\t\t\t\t\tv99[v100] = (function()\n\t\t\t\t\t\t\treturn v95;\n\t\t\t\t\t\tend)();\n\t\t\t\t\t\tbreak;\n\t\t\t\t\tend\n\t\t\t\t\tif (v93 ~= 0) then\n\t\t\t\t\telse\n\t\t\t\t\t\tlocal v118 = (function()\n\t\t\t\t\t\t\treturn 0;\n\t\t\t\t\t\tend)();\n\t\t\t\t\t\twhile true do\n\t\t\t\t\t\t\tif (v118 ~= 1) then\n\t\t\t\t\t\t\telse\n\t\t\t\t\t\t\t\tv93 = (function()\n\t\t\t\t\t\t\t\t\treturn #\".\";\n\t\t\t\t\t\t\t\tend)();\n\t\t\t\t\t\t\t\tbreak;\n\t\t\t\t\t\t\tend\n\t\t\t\t\t\t\tif (v118 == (0 + 0)) then\n\t\t\t\t\t\t\t\tv94 = (function()\n\t\t\t\t\t\t\t\t\treturn v96();\n\t\t\t\t\t\t\t\tend)();\n\t\t\t\t\t\t\t\tv95 = (function()\n\t\t\t\t\t\t\t\t\treturn nil;\n\t\t\t\t\t\t\t\tend)();\n\t\t\t\t\t\t\t\tv118 = (function()\n\t\t\t\t\t\t\t\t\treturn 1 - 0;\n\t\t\t\t\t\t\t\tend)();\n\t\t\t\t\t\t\tend\n\t\t\t\t\t\tend\n\t\t\t\t\tend\n\t\t\t\tend\n\t\t\t\t"
+  },
+  "v93_v100_assignments": {
+    "v93": "1763 - (454 + 1309)"
+  },
+  "v59_structure": {
+    "variable": "v59",
+    "components": [
+      "v56",
+      "v57",
+      "nil",
+      "v58"
+    ],
+    "structure": "v56,v57,nil,v58"
+  },
+  "return_variable": "v95",
+  "operations": [
+    {
+      "type": "for_loop",
+      "variable": "v71",
+      "start": "#\">\"",
+      "end": "v60",
+      "body": "FlatIdent_60EA1, Type, Cons, v21, v24, v25, v61, v71 = (function()\n\t\t\t\treturn v54(FlatIdent_60EA1, Type, Cons, v21, v24, v25, v61, v71);"
+    }
+  ],
+  "constants": [],
+  "extraction_script": "-- RUNTIME EXTRACTION SCRIPT для LuaObfuscator.com\n-- Вставьте этот код ПЕРЕД последней строкой return v15(...)\n\nprint(\"🔍 Начинаем извлечение данных из обфусцированного скрипта...\")\n\n-- Перехватываем функцию v28\nlocal original_v28 = v28\nlocal extracted_data = {}\n\nlocal function debug_v28()\n    print(\"=== ИЗВЛЕЧЕНИЕ ДАННЫХ ИЗ V28 ===\")\n    \n    -- Вызываем оригинальную функцию\n    local vm_structure = original_v28()\n    \n    print(\"Тип результата v28:\", type(vm_structure))\n    \n    if type(vm_structure) == \"table\" then\n        print(\"Компоненты VM структуры:\")\n        \n        for i = 1, #vm_structure do\n            local component = vm_structure[i]\n            print(f\"  Компонент [{i}]: {type(component)}\")\n            \n            if type(component) == \"table\" then\n                print(f\"    Размер таблицы: {#component}\")\n                \n                -- Если это таблица инструкций\n                if i == 1 and #component > 0 then\n                    print(\"    ИНСТРУКЦИИ ВИРТУАЛЬНОЙ МАШИНЫ:\")\n                    for j = 1, math.min(#component, 10) do\n                        local instr = component[j]\n                        if type(instr) == \"table\" then\n                            local instr_str = \"\"\n                            for k = 1, #instr do\n                                instr_str = instr_str .. tostring(instr[k]) .. \" \"\n                            end\n                            print(f\"      Инструкция {j}: {instr_str}\")\n                        else\n                            print(f\"      Инструкция {j}: {instr}\")\n                        end\n                    end\n                    if #component > 10 then\n                        print(f\"      ... ещё {#component - 10} инструкций\")\n                    end\n                end\n                \n                -- Если это таблица констант  \n                if i == 2 and #component > 0 then\n                    print(\"    КОНСТАНТЫ:\")\n                    for j = 1, math.min(#component, 20) do\n                        local const = component[j]\n                        print(f\"      Константа {j}: {const} (тип: {type(const)})\")\n                        \n                        -- Сохраняем строковые константы\n                        if type(const) == \"string\" then\n                            table.insert(extracted_data, {\n                                type = \"string_constant\",\n                                index = j,\n                                value = const\n                            })\n                        end\n                    end\n                    if #component > 20 then\n                        print(f\"      ... ещё {#component - 20} констант\")\n                    end\n                end\n                \n                -- Если это таблица функций\n                if i == 4 and #component > 0 then\n                    print(\"    ФУНКЦИИ:\")\n                    for j = 1, math.min(#component, 5) do\n                        local func = component[j]\n                        print(f\"      Функция {j}: {type(func)}\")\n                    end\n                end\n            end\n        end\n    end\n    \n    print(\"=== КОНЕЦ ИЗВЛЕЧЕНИЯ ИЗ V28 ===\")\n    return vm_structure\nend\n\n-- Заменяем v28\nv28 = debug_v28\n\n-- Перехватываем v29 для анализа выполнения\nlocal original_v29 = v29\nv29 = function(vm_data, env, ...)\n    print(\"=== ВЫПОЛНЕНИЕ ВИРТУАЛЬНОЙ МАШИНЫ ===\")\n    \n    -- Показываем данные перед выполнением\n    if type(vm_data) == \"table\" and #vm_data >= 2 then\n        local constants = vm_data[2]\n        if type(constants) == \"table\" then\n            print(\"СТРОКОВЫЕ КОНСТАНТЫ НАЙДЕНЫ:\")\n            for i = 1, #constants do\n                local const = constants[i]\n                if type(const) == \"string\" and #const > 0 then\n                    print(f\"  [{i}] '{const}'\")\n                end\n            end\n        end\n    end\n    \n    -- Выполняем оригинальный код\n    local result = original_v29(vm_data, env, ...)\n    \n    print(\"=== ВИРТУАЛЬНАЯ МАШИНА ЗАВЕРШЕНА ===\")\n    return result\nend\n\n-- Выводим собранные данные\nprint(\"\\n📊 СОБРАННЫЕ ДАННЫЕ:\")\nfor i, data in ipairs(extracted_data) do\n    if data.type == \"string_constant\" then\n        print(f\"  Строка {data.index}: '{data.value}'\")\n    end\nend\n\nprint(\"\\n🚀 Запускаем обфусцированный код с отладкой...\")\n",
+  "analysis_summary": {
+    "has_v54_function": true,
+    "has_v59_structure": true,
+    "has_return_statement": true,
+    "v93_v100_count": 1,
+    "operations_count": 1,
+    "constants_count": 0
+  }
+}
