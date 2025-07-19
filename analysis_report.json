@@ -1,0 +1,130 @@
+{
+  "hercules_detection": {
+    "is_hercules": true,
+    "version": "1.6.2",
+    "confidence": 1.0,
+    "indicators": [
+      "hercules_signature",
+      "version_string",
+      "vm_structure",
+      "string_decoder_function",
+      "bytecode_loader",
+      "vm_executor",
+      "function_wrapper",
+      "anti_tamper"
+    ]
+  },
+  "vm_analysis": {
+    "vm_detected": true,
+    "instructions": [],
+    "functions": [
+      "TCdKuvykXJB",
+      "MNBiHSwJduDT",
+      "uyapirbMSXxL",
+      "HuDWadUZyHyr",
+      "SVkOeWirtS",
+      "iLkvhyKfZlmz",
+      "oOctatkvH",
+      "Wrapped"
+    ],
+    "constants": [
+      [
+        "oNuYCDzG",
+        "8 end "
+      ],
+      [
+        "oNuYCDzG",
+        "24 end "
+      ],
+      [
+        "oNuYCDzG",
+        "3 break end "
+      ],
+      [
+        "KEWOiRLX",
+        "72 "
+      ],
+      [
+        "nBMhqJuiXfc",
+        "42 "
+      ],
+      [
+        "oNuYCDzG",
+        "22 end "
+      ],
+      [
+        "oNuYCDzG",
+        "89 end "
+      ],
+      [
+        "oNuYCDzG",
+        "2 end "
+      ],
+      [
+        "oNuYCDzG",
+        "66 break end "
+      ],
+      [
+        "oNuYCDzG",
+        "18 end "
+      ],
+      [
+        "HXYDzmlt",
+        "79 "
+      ],
+      [
+        "PHSWWsdS",
+        "51 "
+      ],
+      [
+        "WYjruVYJMbp",
+        "92 "
+      ],
+      [
+        "YgsAFtLal",
+        "6 "
+      ],
+      [
+        "cuCzEJpiRD",
+        "2698"
+      ],
+      [
+        "afToLAMJHixs",
+        "2698"
+      ],
+      [
+        "fTAKBayDIjj",
+        "0"
+      ],
+      [
+        "zRezekiGoC",
+        "2451"
+      ],
+      [
+        "yZhAJwlnjNva",
+        "65"
+      ],
+      [
+        "sIImFEbFw",
+        "50 "
+      ]
+    ]
+  },
+  "vulnerabilities": [],
+  "embedded_strings": [],
+  "extracted_strings": [],
+  "statistics": {
+    "original_size": 3623,
+    "deobfuscated_size": 295,
+    "obfuscation_ratio": 12.28135593220339,
+    "lines_original": 88,
+    "functions_found": 8,
+    "constants_found": 20
+  },
+  "deobfuscation_notes": [
+    "This script uses Hercules obfuscator with VM-based protection",
+    "The original code is compiled to custom bytecode",
+    "Full deobfuscation requires VM emulation or dynamic analysis",
+    "Static analysis can extract some strings and structure"
+  ]
+}
